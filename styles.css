@@ -1,0 +1,179 @@
+/*Main Structure*/
+body{
+	font-family:Arial;
+	background:Gainsboro;
+}
+h1 {
+	text-align:center;
+	color:white
+}
+h3 {
+	text-align:center;
+	color:#483D8B;
+}
+.contact {
+	text-align:left;
+	color:black;
+	font-weight:normal;
+	margin-left: 25px;
+	padding:5px;
+	line-height: 1.8;
+}
+.contact h3 {
+	text-align:left;
+	color:black;
+}
+#content{
+	width:90%;
+	margin:auto;
+}
+#more {
+	display: none;
+}
+/*Contact My Style*/
+.block {
+  display: block;
+  width: 40%;
+  border: none;
+  background-color:Crimson;
+  padding: 14px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color:AliceBlue;
+}
+header{
+	background:Crimson;
+	padding:5px;
+}
+div {
+	background:AliceBlue;
+	border:25px solid aliceblue;
+}
+nav{
+	background:Crimson;
+	padding:5px;	
+}
+footer{
+	background:#483D8B;
+	padding:5px;
+	color:AliceBlue;
+	text-align:center;
+}
+.space p {
+	display:inline;
+	text-align:center;
+	margin:10%;
+	padding:5px;
+}
+.video {
+	text-align:center;
+}
+#main-nav li {
+	display:inline;
+	text-align:center;
+}
+#main-nav {
+	text-align:center;
+}
+#main-nav li, a{
+	text-align:center;
+	background:AliceBlue;
+	padding:5px;
+}
+/*Center image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li:hover {
+  color: red;
+}
+/*Smaller Resolution*/
+@media all and (max-width: 700px) {
+#content {
+  width: 100%;
+  margin: auto;
+  padding:5px;
+	}
+#main-nav li, #main-nav a{
+		text-decoration:none;
+		display:inline-block;
+		background:AliceBlue;
+		color:black;
+		width:100%;
+		margin:1px;
+		padding:2px;
+		text-align:left;
+	}
+.center {
+    width: 500px;
+    height: auto;
+}
+}
+/*Navigation*/
+@media all and (min-width: 700px) {
+#main-nav {
+	text-align:center;
+}
+#main-nav li, #main-nav a{
+	display:inline;
+}
+#main-nav a {
+	text-decoration:none;
+	color:black;
+	padding:5px;
+	width:100%;
+	}
+}
+/* Quiz */
+p.question {
+font-size:20px;
+  margin-bottom:0px;
+}
+h2.quizHeader {
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin:auto;
+  padding: 5px;
+}
+input.quizSubmit[type="submit"] {
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  color: #ffffff;
+  background-color:Crimson;
+  height:35px;
+  width:85px;
+  border:1px solid #5E5E5E;
+  border-radius:5px;
+ }
+input.quizSubmit[type="submit"]:hover {
+  background:#ff66cc;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

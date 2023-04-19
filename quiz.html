@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Project</title>
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Pediatric Physicans Assistant</h1>
+		</header>
+		<nav id="main-nav">
+		<ul>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</ul>
+		</nav>
+</head>
+</body>
+<body>
+<body>
+  <h3 class="quizHeader">Website Development Quiz</h3>
+	  	<div>
+	  		<p class="question">1. How to change the background color to blue?</p>
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">background;blue:</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>color:blue;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>background:blue;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>blue:background;</label>
+    		</ul>
+	  	</div>
+	  	<div>
+	  		<p class="question">2. How to add the following image, under the folder "images" saved as "peds.jpg"?</p>
+            <img src="images/peds.jpg">
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>&lt;img scr="images/PA.jpg"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">&lt;img src="images/PA.jpg"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>&lt;img src="images-PA.jpg"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>&lt;img src="PA.jpg/images"&gt;</label>
+	    	</ul>
+	  	</div>
+	  	<div>
+	  		<p class="question">3. How do you write "Hello World" in an alert box?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>msgBox("Hello World");</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">alert("Hello World");</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>msg("Hello World");</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>alertBox("Hello World");</label>
+	    	</ul>
+		</div>
+	  	<div>
+	  		<p class="question">4. How to add the class name "content" to a section?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>&lt;section class"content"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">&lt;section class="content"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>&lt;section name="content"&gt;</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>&lt;section="content"&gt;</label>
+    		</ul>
+	  	</div>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  <h2>Quiz Results</h2>
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+</body>
+</body>
+		<footer>
+			<p>&copy; My copywrite</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</html>
